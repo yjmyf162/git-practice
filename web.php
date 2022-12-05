@@ -15,4 +15,4 @@ Route::get('/list', 'ArticleController@showList')->name('list');
 
 Route::get('/regist', 'ArticleController@showRegistForm')->name('regist');
 
-Route::post('/regist', 'ArticleController@registSubmit')->name('submit');
+
